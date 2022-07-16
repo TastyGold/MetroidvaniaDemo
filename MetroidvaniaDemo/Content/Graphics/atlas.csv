@@ -1,0 +1,8 @@
+id,x,y,width,height,offsetX,offsetY
+box_pile,123,0,19,19,-2,-3
+red_tree,0,0,123,147,0,8
+fence_mid_a,188,0,16,15,0,1
+fence_right_a,218,0,11,15,0,1
+bush_a,142,0,24,17,4,2
+fence_left_a,204,0,14,15,2,1
+rock_a,166,0,22,17,5,0

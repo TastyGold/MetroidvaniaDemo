@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>MetroidvaniaDemo</RootNamespace>
+    <StartupObject></StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.2.1" />
+    <PackageReference Include="Raylib-cs" Version="3.7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MathExtras">
+      <HintPath>..\..\MathExtras\MathExtras\bin\Debug\netcoreapp3.1\MathExtras.dll</HintPath>
+    </Reference>
+    <Reference Include="Raylib-cs">
+      <HintPath>..\..\..\..\OneDrive\Desktop\raylib\Raylib-cs-master\Raylib-cs\bin\Debug\netstandard2.1\Raylib-cs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\Maps\" />
+  </ItemGroup>
+
+</Project>
